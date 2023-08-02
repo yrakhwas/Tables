@@ -1,0 +1,49 @@
+
+html{
+    max-width: 900px;
+    margin: auto;
+}
+header
+{
+    display: flex;
+    align-items: center; /* Вирівнювання елементів по вертикалі */
+    background-color: #7f1d1d;
+    padding: 10px;
+    color:white;
+}
+.menu
+{
+    list-style-type: none;
+    display: flex;
+}
+.menu li{
+    margin-left: 20px;
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+.writers
+{
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.menu li:hover
+{
+    background-color: #631616;
+}
+.content
+{
+    width: 70%;
+}
+.sidebar
+{
+    width:30%;
+}
+article
+{
+    display: flex;
+}
+table img
+{
+    width:150px;
+    height: 200px;
+}

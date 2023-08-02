@@ -1,0 +1,28 @@
+.icon
+{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+.menu
+{
+    list-style-type: none;
+    text-transform: uppercase;
+    width: 30%;
+}
+li{
+    display: flex;
+    align-items: center;
+    background-color: rgb(117, 117, 117);
+    color: white;
+    font-size: larger;
+}
+body{
+    margin: auto;
+    width: 70%;
+    background-color: rgb(191, 191, 190);
+}
+li:hover
+{
+    background-color: rgb(67, 67, 68);
+}
