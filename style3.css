@@ -2,6 +2,7 @@
 html{
     max-width: 900px;
     margin: auto;
+    
 }
 header
 {
@@ -33,17 +34,48 @@ header
 .content
 {
     width: 70%;
+    padding: 5%;
+    background-color: lightgray;
 }
 .sidebar
 {
     width:30%;
+    margin: 10px;
+    background-color: rgb(187, 187, 187);
+    height: min-content;
+    vertical-align: bottom;
+    padding: 10px;
 }
 article
 {
     display: flex;
+    background-color: lightgray;
 }
 table img
 {
-    width:150px;
-    height: 200px;
+    width:200px;
+    height: 250px;
+    padding: 5px;
+}
+.fcolumn
+{
+    font-weight: bold;
+    font-size: smaller;
+    padding: 5px;
+    vertical-align: top;
+}
+.tableData
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: smaller;
+}
+.footerTable
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    padding-bottom: 20px;
 }
